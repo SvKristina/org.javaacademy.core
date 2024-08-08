@@ -42,7 +42,7 @@ public class Homework2 {
            leftDownToRightUpSum += arrayOfNumbers[i][d];
            d--;
         }
-
+        
         System.out.println("Сумма диагонали идущей с левого верхнего угла к нижнему правому: "
                 + leftUpToRightDownSum + ". Сумма диагонали идущей с левого нижнего угла к верхнему правому: "
                 + leftDownToRightUpSum + ".");
@@ -63,6 +63,5 @@ public class Homework2 {
                 attemptNumber++;
             }
         }
-
     }
 }
